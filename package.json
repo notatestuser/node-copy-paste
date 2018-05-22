@@ -1,23 +1,34 @@
-{ "name": "copy-paste-win32fix"
-, "version": "1.3.0"
-, "description": "A command line utility that allows read/write (i.e copy/paste) access to the system clipboard."
-, "keywords": [ "copy", "paste", "copy and paste", "clipboard" ]
-, "maintainers":
-  [ { "name": "Xavi"
-    , "email": "xavi.rmz@gmail.com"
-    , "web": "http://xavi.co"
+{
+  "name": "copy-paste-win32fix",
+  "version": "1.4.0",
+  "description": "A command line utility that allows read/write (i.e copy/paste) access to the system clipboard.",
+  "keywords": [
+    "copy",
+    "paste",
+    "copy and paste",
+    "clipboard"
+  ],
+  "maintainers": [
+    {
+      "name": "Luke Plaster",
+      "email": "me@lukep.org",
+      "web": "https://lukep.org"
     }
-  ]
-, "main": "./index.js"
-, "repository":
-  { "type": "git"
-  , "url": "https://github.com/notatestuser/node-copy-paste"
-  }
-, "dependencies":
-  { "iconv-lite": "^0.4.8" }
-, "devDependencies":
-  { "mocha": "*", "should": ">=8.2.1" }
-, "scripts":
-  { "test": "node_modules/.bin/mocha -w" }
-, "license": "MIT"
+  ],
+  "main": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/notatestuser/node-copy-paste"
+  },
+  "dependencies": {
+    "iconv-lite": "^0.4.8"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": ">=8.2.1"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha -w"
+  },
+  "license": "MIT"
 }
